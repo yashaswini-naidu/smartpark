@@ -1,0 +1,12 @@
+SMARTPARK COMPLETE PROJECT
+
+1. Extract this folder.
+2. Open this folder in VS Code.
+3. Read README.md.
+4. Run: npm install
+5. Copy .env.example to .env.local and enter your Supabase URL + publishable key.
+6. Set up Supabase SQL using supabase/schema.sql only if starting with a NEW database.
+7. Run: npm run dev
+8. Open: http://localhost:3000
+
+For the existing SmartPark database, do NOT rerun the schema blindly. Your existing tables and functions may already be present.
